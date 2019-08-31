@@ -1,0 +1,179 @@
+.side-bar{
+    width:400px;
+    height:100vh;
+    background-color: #4267b2;
+    padding:20px;
+    color:white;
+    display:fixed;
+    overflow-y: auto;
+
+}
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.main-container{
+    display:flex;
+    height:100vh;
+
+}
+.main-body{
+    width:80%;
+    height:100vh;
+    overflow-y: auto;
+}
+
+.main-body h3{
+    text-align: center;
+    margin-top:10px;
+
+}
+
+.main-body-cards{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top:50px;
+
+}
+
+.card-card{
+    width:400px;
+    height:240px;
+    margin-top:20px;
+    transition: 0.3s;
+    position:relative;
+
+}
+
+.card img{
+    width:399px;
+    height:200px;
+    margin:0 auto;
+    border-radius: 5px 5px 0 0;
+    border:1px solid #e0e0e0;
+}
+
+.card-body{
+    padding:0;
+    height:auto;
+    text-align: center;
+
+}
+
+.job-title{
+    font-style:italic;
+}
+
+.description{
+    font-size:16px;
+    font-style: italic;
+}
+
+.bx{
+    font-size: 30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.box-box{
+    position:relative;
+}
+
+table a{
+    color:white;
+}
+
+table a:hover{
+    text-decoration: none;
+    color:yellow;
+}
+
+tr{
+    height:33px;
+}
+
+h4{
+    font-size: 2.5rem;
+}
+
+.my-portfolio{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.card-title{
+    font-weight:bold;
+}
+
+.card-card:hover{
+    filter:brightness(40%);
+}
+
+
+.text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+    transition:0.3s;
+    color:white;
+    font-size: 30px;
+    filter:brightness(100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.outside-card-card{
+    position: relative;
+}
+
+.outside-card-card:hover .text{
+    opacity: 1;
+}
+
+.outside-card-card a{
+    color:black;
+}
+
+.outside-card-card a:hover{
+    text-decoration: none;
+}
+
+.accordion{
+    display:none;
+}
+
+@media(max-width:400px){
+    .main-container{
+        flex-direction: column;
+    }
+
+    .side-bar{
+        position:static;
+        overflow-y: visible;
+        height:auto;
+        display:none;
+    }
+
+    .main-body{
+        overflow-y: visible;
+        width:400px;
+
+    }
+
+    .main-body-cards{
+        width:100%;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .accordion{
+        display:block;
+    }
+
+}
