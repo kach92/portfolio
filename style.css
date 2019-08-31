@@ -64,14 +64,18 @@ body{
 
 .job-title{
     font-style:italic;
+    color:white;
 }
 
+.name{
+    color:white;
+}
 .description{
     font-size:16px;
     font-style: italic;
 }
 
-.bx{
+.details-icon{
     font-size: 30px;
     position:absolute;
     top:50%;
@@ -148,9 +152,20 @@ h4{
     display:none;
 }
 
+.project-card-body{
+    background-color: #4267b2;
+    color:white;
+}
+.project-card-body h5{
+    padding:0;
+    margin:0;
+    margin-top:7px;
+}
+
 @media(max-width:400px){
     .main-container{
         flex-direction: column;
+        width:400px;
     }
 
     .side-bar{
@@ -167,13 +182,46 @@ h4{
     }
 
     .main-body-cards{
-        width:100%;
+        width:90%;
         align-items: center;
         padding-top: 0;
+        margin:0 auto;
     }
 
+    .outside-card-card{
+        width:100%;
+    }
+    .card-card{
+        width:100%;
+    }
+    .card-card img{
+        width:100%;
+    }
     .accordion{
         display:block;
+    }
+
+    .dropdown-header{
+        background-color:#4267b2;
+        width:400px;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .dropdown-header a{
+        display:block;
+    }
+
+    .dropdown-icon{
+        color:white;
+        font-size: 30px
+    }
+
+    .dropdown-body{
+        background-color: #4267b2;
+        color:white;
+        padding-bottom:20px;
+        padding-left:30px;
     }
 
 }

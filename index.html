@@ -6,30 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.3/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="main-container">
         <div class="accordion" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Collapsible Group Item #1
-                </button>
-              </h2>
-            </div>
+            <div class="card">
+                <div class="card-header dropdown-header" id="headingOne">
+                    <div class="dropdown-header-title">
+                        <h3 class="name">Kenny Ang Chin Hua</h3>
+                        <h5 class="job-title">Full-Stack Developer</h5>
+                    </div>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
+                    <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class='bx bx-menu dropdown-icon'></i></a>
 
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body dropdown-body">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="box-box"style="width:50px"><i class='bx bx-user-pin details-icon'></i></td>
+                                    <td><a href="https://profiles.generalassemb.ly/profiles/15191/preview">About me</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="box-box"style="width:50px"><i class='bx bx-mail-send details-icon'></i></td>
+                                    <td><a href="mailto: kenny.ang9206@gmail.com">Email</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="box-box"style="width:50px"><i class='bx bxl-linkedin-square details-icon' ></i></td>
+                                    <td><a href="https://www.linkedin.com/in/kenny-ang-99761aa0/">LinkedIn</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="box-box"style="width:50px"><i class='bx bxl-github details-icon' ></i></td>
+                                    <td><a href="https://github.com/kach92">Github</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="box-box"style="width:50px"><i class='bx bxs-file-pdf details-icon' ></i></td>
+                                    <td><a href="https://drive.google.com/file/d/1CRXTnWz3Ae9gMc0Fznm9le1qg5oVzyNM/view?usp=sharing">Resume</a></td>
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                  </div>
+                </div>
+            </div>
         </div>
-
         <div class="side-bar">
             <h3>Kenny Ang Chin Hua</h3>
             <h5 class="job-title">Full-Stack Developer</h5>
@@ -41,24 +67,24 @@
             <table>
                 <tbody>
                     <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bx-user-pin'></i></td>
+                        <td class="box-box"style="width:50px"><i class='bx bx-user-pin details-icon'></i></td>
                         <td><a href="https://profiles.generalassemb.ly/profiles/15191/preview">About me</a></td>
                     </tr>
                     <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bx-mail-send'></i></td>
+                        <td class="box-box"style="width:50px"><i class='bx bx-mail-send details-icon'></i></td>
                         <td><a href="mailto: kenny.ang9206@gmail.com">Email</a></td>
                     </tr>
                     <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bxl-linkedin-square' ></i></td>
+                        <td class="box-box"style="width:50px"><i class='bx bxl-linkedin-square details-icon' ></i></td>
                         <td><a href="https://www.linkedin.com/in/kenny-ang-99761aa0/">LinkedIn</a></td>
                     </tr>
 
                     <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bxl-github' ></i></td>
+                        <td class="box-box"style="width:50px"><i class='bx bxl-github details-icon' ></i></td>
                         <td><a href="https://github.com/kach92">Github</a></td>
                     </tr>
                     <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bxs-file-pdf' ></i></td>
+                        <td class="box-box"style="width:50px"><i class='bx bxs-file-pdf details-icon' ></i></td>
                         <td><a href="https://drive.google.com/file/d/1CRXTnWz3Ae9gMc0Fznm9le1qg5oVzyNM/view?usp=sharing">Resume</a></td>
                     </tr>
 
@@ -75,7 +101,7 @@
                     <a href="https://kach92.github.io/Reversi/"><div class="card card-card">
 
                         <img src="https://res.cloudinary.com/kach92/image/upload/v1567250467/Reversi_mynrxa.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <div class="card-body project-card-body">
                             <h5 class="card-title">Reversi</h5>
                         </div>
                     </div></a>
@@ -85,7 +111,7 @@
                     <a href="https://blitt.herokuapp.com/blitt"><div class="card card-card">
 
                             <img src="https://res.cloudinary.com/kach92/image/upload/v1567250921/Blitt_nnosyz.png" alt="...">
-                            <div class="card-body">
+                            <div class="card-body project-card-body">
                                 <h5 class="card-title">Blitt</h5>
                             </div>
                     </div></a>
@@ -95,7 +121,7 @@
                     <a href="https://oakandbrass.herokuapp.com/"><div class="card card-card">
 
                             <img src="https://res.cloudinary.com/kach92/image/upload/v1567250922/oakandbrass_n3fkps.png" alt="...">
-                            <div class="card-body">
+                            <div class="card-body project-card-body">
                                 <h5 class="card-title">Oak & Brass</h5>
                             </div>
                     </div></a>
