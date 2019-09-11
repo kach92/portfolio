@@ -1,148 +1,513 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-    <title>Kenny's Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jackson Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.3/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="main-container">
-        <div class="accordion" id="accordionExample">
-            <div class="card">
-                <div class="card-header dropdown-header" id="headingOne">
-                    <div class="dropdown-header-title">
-                        <h2 class="name">Kenny Ang</h2>
-                        <h5 class="job-title">Full-Stack Developer</h5>
-                    </div>
 
-                    <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class='bx bx-menu dropdown-icon'></i></a>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-                </div>
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/profile1.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Kenny Ang</a></h1>
+				<span class="position"><a href="#">Full-Stack Web Developer</a> in Singapore</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="work">My Projects</a></li>
+					</ul>
+				</div>
+			</nav>
 
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body dropdown-body">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="box-box"style="width:50px"><i class='bx bx-user-pin details-icon'></i></td>
-                                    <td><a target="_blank" href="https://profiles.generalassemb.ly/profiles/kenny-ang/">About me</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="box-box"style="width:50px"><i class='bx bx-mail-send details-icon'></i></td>
-                                    <td><a target="_blank" href="mailto: kenny.ang9206@gmail.com">Email</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="box-box"style="width:50px"><i class='bx bxl-linkedin-square details-icon' ></i></td>
-                                    <td><a target="_blank" href="https://www.linkedin.com/in/kenny-ang/">LinkedIn</a></td>
-                                </tr>
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
+				<ul>
+					<li><a href="https://profiles.generalassemb.ly/profiles/kenny-ang/" target="_blank"><i class="bx bx-user-pin details-icon"></i></a></li>
+					<li><a target="_blank" href="mailto: kenny.ang9206@gmail.com"><i class="bx bx-mail-send details-icon"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/kenny-ang/"><i class="bx bxl-linkedin-square details-icon"></i></a></li>
+					<li><a target="_blank" href="https://github.com/kach92"><i class="bx bxl-github details-icon"></i></a></li>
+                    <li><a target="_blank" href="https://drive.google.com/file/d/1XRdR0VFkx_R83FhWL-_FVvm0M-1NYpvD/view?usp=sharing"><i class="bx bxs-file-pdf details-icon"></i></a></li>
+				</ul>
+			</div>
 
-                                <tr>
-                                    <td class="box-box"style="width:50px"><i class='bx bxl-github details-icon' ></i></td>
-                                    <td><a target="_blank" href="https://github.com/kach92">Github</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="box-box"style="width:50px"><i class='bx bxs-file-pdf details-icon' ></i></td>
-                                    <td><a target="_blank" href="https://drive.google.com/file/d/1XRdR0VFkx_R83FhWL-_FVvm0M-1NYpvD/view?usp=sharing">Resume</a></td>
-                                </tr>
+		</aside>
 
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/coding1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1 style="color:white;">Hi! <br>I'm Kenny</h1>
+												<p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1XRdR0VFkx_R83FhWL-_FVvm0M-1NYpvD/view?usp=sharing" target="_blank">Download CV <i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/coding2.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>I am <br>a Full-Stack Developer</h1>
 
+												<p><a class="btn btn-primary btn-learn" style="color:black; ">View Portfolio <i class="icon-briefcase3"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
 
-                            </tbody>
-                        </table>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="side-bar">
-            <h3>Kenny Ang Chin Hua</h3>
-            <h5 class="job-title">Full-Stack Developer</h5>
-            <br/><br/><br/>
-            <h4>Hello!</h4>
-            <p class="description">I am an aspiring web developer with a background in mechanical engineering and inspired to build a solid career in tech. I am passionate to build applications that bring solutions and simplify end-users’ needs.</p>
-            <br/><br/><br/>
-            <p class="description-2">To know more about me, do check out below:</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bx-user-pin details-icon'></i></td>
-                        <td><a target="_blank" href="https://profiles.generalassemb.ly/profiles/15191/preview">About me</a></td>
-                    </tr>
-                    <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bx-mail-send details-icon'></i></td>
-                        <td><a target="_blank" href="mailto: kenny.ang9206@gmail.com">Email</a></td>
-                    </tr>
-                    <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bxl-linkedin-square details-icon' ></i></td>
-                        <td><a target="_blank" href="https://www.linkedin.com/in/kenny-ang-99761aa0/">LinkedIn</a></td>
-                    </tr>
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Kenny Ang</strong> I had 3 years of experiences as a Mechanical Engineer in Singapore. Currently I am transitioning to technology by taking up immersive courses in Software Engineering at General Assembly Singapore.</p>
+										<p>I have keen interest in programming and always seek for complicated and challenging projects to be done. I would like to contribute to a company with my interest, skills and ideas by working as a Full-Stack Developer.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                    <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bxl-github details-icon' ></i></td>
-                        <td><a target="_blank" href="https://github.com/kach92">Github</a></td>
-                    </tr>
-                    <tr>
-                        <td class="box-box"style="width:50px"><i class='bx bxs-file-pdf details-icon' ></i></td>
-                        <td><a target="_blank" href="https://drive.google.com/file/d/1CRXTnWz3Ae9gMc0Fznm9le1qg5oVzyNM/view?usp=sharing">Resume</a></td>
-                    </tr>
-
-
-
-
-                </tbody>
-            </table>
-        </div>
-        <div class="main-body">
-            <h3 class="my-portfolio">My Projects</h3>
-            <div class="main-body-cards">
-                <div class="outside-card-card">
-                    <p class="text">Click me!</p>
-                    <a target="_blank" href="https://kach92.github.io/Reversi/"><div class="card card-card">
-
-                        <img src="https://res.cloudinary.com/kach92/image/upload/v1567250467/Reversi_mynrxa.png" class="card-img-top" alt="...">
-                        <div class="card-body project-card-body">
-                            <h5 class="card-title">Reversi</h5>
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>During the time I spent in General Assembly Singapore - Software Engineering Immersive course, I picked up and learn many skills that made me a better full-stack web developer. Below are some of the skills that I learnt as well as the rating I give to myself.</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>NodeJs</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>HTML</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>ExpressJs</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>CSS3</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="77"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:77%">
+								    <span>77%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>ReactJs</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="86"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:86%">
+								    <span>86%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Javascript</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="93"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:93%">
+								    <span>93%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                            <div class="progress-wrap">
+                                <h3>Ruby on Rails</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                    <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div></a>
-                </div>
-                <div class="outside-card-card">
-                    <p class="text">Click me!</p>
-                    <a target="_blank" href="https://blitt.herokuapp.com/blitt"><div class="card card-card">
-
-                            <img src="https://res.cloudinary.com/kach92/image/upload/v1567250921/Blitt_nnosyz.png" alt="...">
-                            <div class="card-body project-card-body">
-                                <h5 class="card-title">Blitt</h5>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                            <div class="progress-wrap">
+                                <h3>SASS</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-1" role="progressbar" aria-valuenow="74"
+                                    aria-valuemin="0" aria-valuemax="70" style="width:74%">
+                                    <span>74%</span>
+                                    </div>
+                                </div>
                             </div>
-                    </div></a>
-                </div>
-                <div class="outside-card-card">
-                    <p class="text">Click me!</p>
-                    <a target="_blank" href="https://oakandbrass.herokuapp.com/"><div class="card card-card">
-
-                            <img src="https://res.cloudinary.com/kach92/image/upload/v1567250922/oakandbrass_n3fkps.png" alt="...">
-                            <div class="card-body project-card-body">
-                                <h5 class="card-title">Oak & Brass</h5>
+                        </div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                            <div class="progress-wrap">
+                                <h3>jQuery</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="84"
+                                    aria-valuemin="0" aria-valuemax="70" style="width:84%">
+                                    <span>84%</span>
+                                    </div>
+                                </div>
                             </div>
-                    </div></a>
-                </div>
-                <div class="outside-card-card">
-                    <p class="text">Click me!</p>
-                    <a target="_blank" href="https://bagpacker.herokuapp.com/"><div class="card card-card">
-
-                            <img src="https://res.cloudinary.com/kach92/image/upload/v1568188174/Screenshot_2019-09-11_at_1.39.58_PM_e6yp0g.png" alt="...">
-                            <div class="card-body project-card-body">
-                                <h5 class="card-title">Bagpacker</h5>
+                        </div>
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                            <div class="progress-wrap">
+                                <h3>Git</h3>
+                                <div class="progress">
+                                    <div class="progress-bar color-4" role="progressbar" aria-valuenow="89"
+                                    aria-valuemin="0" aria-valuemax="70" style="width:89%">
+                                    <span>89%</span>
+                                    </div>
+                                </div>
                             </div>
-                    </div></a>
-                </div>
-            </div>
+                        </div>
 
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">General Assembly - Software Engineer Immersive
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>A Software Engineering Immersive program focusing on Computer Science concepts and fundamentals, as well as Full-Stack Web Development, where we learn to build applications from the ground up using key languages and frameworks eg: HTML, CSS, Javascript, React, NodeJS, ExpressJS, PostgreSQL, Ruby on Rails etc. </p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p>We are required to produce 4 full web app projects, either individual or work as a team in Git and GitHub while executing software engineering projects in an Agile development workflow. Checkout my projects below.</p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Mechanical Engineering
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th scope="row" style="width:100px">University</th>
+                                                                <td>: Multimedia University (Melaka Campus) Malaysia, 2010-2015</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Qualification</th>
+                                                                <td>: Bachelor of Engineering (Honours) Mechanical</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">Period</th>
+                                                                <td>: June 2010 – June 2015</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">CGPA</th>
+                                                                <td>: 3.78/4.00 (First Class Honours)</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </p>
+									        </div>
+									    </div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Manufacturing Design Engieer</a> <span>2019</span></h2>
+                                      <h5 style="font-style: italic;">KLA-Tencor Singapore</h5>
+                                      <ul>
+                                        <li>Worked with optics and system engineer to ensure flawless integration and test at subsystem and system level of Surfscan wafer particle scanning equipment.</li>
+                                        <li>Worked closely with and managed suppliers to ensure all design requirements are specified and achieved.</li>
+                                        <li>Collaborated with design engineers to improve effectiveness or efficiency of mechanical designs in equipment.</li>
+                                        <li>Ensured smooth production and efficient delivery of product by oversee and address to any product issue immediately during any of the production phases with the co-operation of a team of 20 technicians.
+                                        Provided continuous support and technical know-how to the global installation team across the world whenever an issue occurred in the installation phase.</li>
+                                      </ul>
+
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Equipmennt Engineer</a> <span>2011-2015</span></h2>
+					                  <h5 style="font-style: italic;">United Microelectronics Singapore (UMC)</h5>
+                                      <ul>
+                                        <li>Collaborated with Process and Manufacturing Engineers to resolve AMAT Endura PVD wafer thin film sputtering machine’s technical/process issue.</li>
+                                        <li>Maintained and improved equipment KPI as well as improving product quality and yield.</li>
+                                        <li>Provided technical support to mechanical and process issue utilizing logical analytical approach (3W1H) and methodology (FMEA, SPC, Six Sigma).</li>
+                                        <li>Provided training to assistant engineers and technicians on daily and monthly preventive maintenance (PM) as well as managing their daily task.</li>
+                                        <li>Led and drive cross-functional teams and oversee the completion of new machine installation projects.</li>
+
+                                      </ul>
+					               </div>
+					            </div>
+					         </article>
+
+
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Projects</span>
+							<h2 class="colorlib-heading animate-box">My Projects</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(https://res.cloudinary.com/kach92/image/upload/v1567250467/Reversi_mynrxa.png)">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://kach92.github.io/Reversi/" target="_blank">Reversi</a></h3>
+										<span>A reversi web game, allowing players to play against each other, against a bot or spectate a match between bots!</span>
+										<p class="icon">
+											<span><a href="https://kach92.github.io/Reversi/" target="_blank">Check it out! </a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(https://res.cloudinary.com/kach92/image/upload/v1567250921/Blitt_nnosyz.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://blitt.herokuapp.com/blitt" target="_blank">Blitt - Bill Splitting App</a></h3>
+										<span>A Bill Splitting web app allowing users to split bills easily with their friends and family</span>
+										<p class="icon">
+											<span><a href="https://blitt.herokuapp.com/blitt"target="_blank">Check it out! </a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(https://res.cloudinary.com/kach92/image/upload/v1567250922/oakandbrass_n3fkps.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://oakandbrass.herokuapp.com/" target="_blank">Oak & Brass Furniture E-commerce App</a></h3>
+										<span>A furniture E-commerce app, focusing in top-view furniture placement on user’s floorplan as well as AR tech.</span>
+										<p class="icon">
+											<span><a href="https://oakandbrass.herokuapp.com/"target="_blank">Check it out! </a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(https://res.cloudinary.com/kach92/image/upload/v1568188174/Screenshot_2019-09-11_at_1.39.58_PM_e6yp0g.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://bagpacker.herokuapp.com/" target="_blank">Bagpacker</a></h3>
+										<span>A packing list generator for traveling. User able to form groups with tripmates, share packing list and specify who to bring specific items.</span>
+										<p class="icon">
+											<span><a href="https://bagpacker.herokuapp.com/"target="_blank">Check it out! </a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+				</div>
+			</section>
+
+
+
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+
+
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
