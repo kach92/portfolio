@@ -71,8 +71,11 @@ body{
     color:white;
 }
 .description{
-    font-size:16px;
-    font-style: italic;
+    font-size:17px;
+}
+
+.description-2{
+    font-style:italic;
 }
 
 .details-icon{
