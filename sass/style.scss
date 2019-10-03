@@ -632,26 +632,9 @@ body {
 	box-shadow: none !important;
 	border: none;
 }
-.panel-heading a:after {
-	font-family: "icomoon";
-	content: "\e115";
-	position: absolute;
-	right: 20px;
-	font-size: 14px;
-	font-weight: 400;
-	top: 50%;
-	line-height: 1;
-	margin-top: -7px;
-}
 
-.panel-heading a.collapsed:after {
-	content: "\e114";
-}
-.panel-heading a.collapsed{
-	background: $brand-gray;
-	border: 1px solid lighten($brand-black,90%) !important;
-	color: lighten($brand-black,20%);
-}
+
+
 .panel-body{
 	padding: 1.5em;
 	margin-top: 5px;
